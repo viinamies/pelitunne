@@ -1,129 +1,37 @@
-/*CSS*/ 
-    h1 {
-        color: greenyellow;
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    h2 {
-        color: whitesmoke;
-        text-align: center;
-        font-size: medium;
-        text-shadow: 2px 2px 10px rgb(180, 236, 26);
-    }
-    html {
-        background-color: black;
-    }
-    div {
-        color: white;
-        text-align: center;
-        border-radius: 25px;
-        padding: 15px;
-        border-radius: 6500%;
-    }
-    a {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    a:link {
-        color: green;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    a:visited {
-        color: rgb(209, 217, 255);
-        background-color: transparent;
-        text-decoration: none;
-    }
-    a:hover {
-        color: rgb(181, 188, 255);
-        background-color: transparent;
-        text-decoration: underline;
-        background-color: rgb(138, 153, 218);
-        border-radius: 6500%;
-        padding: 6px;
-    }
-    a:active {
-        color: rgb(115, 119, 136);
-        background-color: transparent;
-        text-decoration: none;
-    }
-
- /*   #div1 {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(89, 128, 255);
-  position: relative;
-  animation-name: myAnimation;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+html {
+    background-color: black;
 }
-
-@keyframes myAnimation {
-  0%   {background-color:rgb(44, 39, 39); left:0px; top:0px;}
-  25%  {background-color:rgb(129, 129, 129); left:200px; top:0px;}
-  50%  {background-color:rgb(77, 113, 143); left:200px; top:200px;}
-  75%  {background-color:rgb(255, 179, 211); left:0px; top:200px;}
-  100% {background-color:rgb(255, 85, 99); left:0px; top:0px;}
-}*/
-
-#iframe1 {
-    border-radius: 15px;
-    padding-left: 3px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    border-color: black;
+#top1 {
+    display: block;
+    position: absolute;
+    color: white;
+    margin: 150px;
+    margin-bottom: 100px;
+    margin-left: 850px;
 }
-#iframe2 {
-    border-radius: 10px;
-    padding-left: 3px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    border-color: black;
+#top1media {
+    display: block;
+    position: absolute;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    margin-left: 625px;
+    height: 250px;
+    width: 500px;
 }
-#iframe3 {
-    border: 10px;
-    padding-left: 3px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    border-color: black;
+#top2media {
+    display: block;
+    position: absolute;
+    margin-top: 230px;
+    margin-bottom: 100px;
+    margin-left: 1200px;
+    height: 250px;
+    width: 500px;
 }
-#img1 {
-    padding: 5px;
-}
-#img2 {
-    padding: 10px;
-}
-#img3 {
-    padding: 10px;
-}
-#img4 {
-    padding: 4px;
-    height: 450px;
-    width: 100%;
-}
-#img5 {
-    padding: 10px;
-}
-#img6 {
-    padding: 10px;
-}
-#img7 {
-    padding: 10px;
-}
-#img8 {
-    padding: 10px;
-}
-#div2 {
-    color:whitesmoke;
-    line-height: 10%;
-    text-align: center;
-    margin: 5px;
+#top2 {
+    display: block;
+    position: absolute;
+    color: white;
+    margin: 200px;
+    margin-bottom: 100px;
+    margin-left: 1440px;
 }
