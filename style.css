@@ -35,3 +35,34 @@ html {
     margin-bottom: 100px;
     margin-left: 1440px;
 }
+#top3media {
+    display: block;
+    position: absolute;
+    margin-top: 230px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    height: 250px;
+    width: 500px;
+}
+#pelitunnelogo {
+    display: block;
+    position: absolute;
+    margin-left: 1680px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+}
+#top3 {
+    display: block;
+    position: absolute;
+    color: white;
+    margin: 150px;
+    margin-left: 265px;
+    margin-top: 200px;
+}
+h1 {
+    color:rgb(177, 228, 39);
+    display: block;
+    position: absolute;
+    margin-left: 778px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
